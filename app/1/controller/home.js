@@ -1,9 +1,11 @@
 /**
  * Created by dujie on 15/10/2.
  */
+require('../tpl/style/home.less');
 
 function init() {
-    console.log('home page init function.');
+    var tpl = require('../tpl/home.ejs');
+    $(document.body).html(tpl);
 }
 
 
