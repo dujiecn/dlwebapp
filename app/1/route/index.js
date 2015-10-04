@@ -3,7 +3,7 @@
  */
 var Router = require('director').Router;
 var home = require('../controller/home.js');
-var login = require('../../../common/service/login.js');
+var login = require('../../../common/base/service/login.js');
 
 /**
  * 注册路由地址

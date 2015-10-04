@@ -1,7 +1,7 @@
 /**
  * Created by dujie on 15/10/2.
  */
-var request = require('../util/request.js');
+var request = require('../../util/request.js');
 
 
 module.exports = function (callback) {
