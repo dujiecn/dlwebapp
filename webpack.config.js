@@ -1,5 +1,6 @@
 var webpack = require('webpack');
-var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
+var CommonsPlugin = webpack.optimize.CommonsChunkPlugin;
+
 
 module.exports = {
     entry: {
@@ -23,5 +24,5 @@ module.exports = {
             exclude: /node_modules/
         }]
     },
-    plugins: [commonsPlugin]
+    plugins: [new CommonsPlugin('common.js')]
 }
