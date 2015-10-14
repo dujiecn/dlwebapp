@@ -4,8 +4,8 @@
 //require('../tpl/style/home.less');
 
 function init() {
-    //var tpl = require('../tpl/home.ejs');
-    //$(document.body).html(tpl);
+    var tpl = require('../tpl/list.ejs');
+    $(document.body).html(tpl({name:'dd'}));
 }
 
 

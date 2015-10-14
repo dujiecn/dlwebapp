@@ -24,5 +24,5 @@ module.exports = {
             exclude: /node_modules/
         }]
     },
-    plugins: [new CommonsPlugin('common.js')]
+    plugins: [] //new CommonsPlugin('common.js')
 }
